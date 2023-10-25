@@ -134,7 +134,7 @@ public class MathGame {
     }
 
     // FREESTYLE: encourages player to try harder
-    private String encourageLosers() {
+    public String encourageLosers() {
         if (player1.getScore() == 0) {
             return "COME ON U LOSER! UP YOUR GAME, " + player1 + "!";
         }
