@@ -23,4 +23,5 @@ public class Player {
     public void reset() {
         score = 0;
     }
+
 }
